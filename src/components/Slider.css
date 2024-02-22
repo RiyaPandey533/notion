@@ -1,0 +1,71 @@
+.slider-container {
+  width: 66%;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 1200px;
+}
+
+.carousel {
+  position: relative;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1.5%;
+}
+
+.carousel-inner .item {
+  display: none;
+}
+
+.carousel-inner .active {
+  display: block;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+.carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-control.right {
+  right: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .slider-container {
+    width: 90%; /* Adjust width for better fit on smaller screens */
+  }
+
+  /* Add more responsive styles as needed */
+}

@@ -1,0 +1,155 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: 0px;
+}
+
+.navbar_image {
+  margin-left: 15px;
+  margin-right: 7px;
+  margin-top: 4px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.left p{
+  margin-right: 15px;
+  margin-top: 21px;
+  color: black;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.dropdown select {
+  padding: 5px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.dropdown select option {
+  padding: 3px;
+}
+
+.right p {
+  margin-top: 20px;
+  margin-right: 17px;
+  cursor: pointer;
+}
+
+.right p:hover{
+  background-color: #f1f1f1;
+}
+
+.right button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 31px;
+  width: 125px;
+  margin-top: 17px;
+  margin-right: 17px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.left_buttons {
+  background-color: white;
+  border: white;
+  color: black;
+  font-size: medium;
+  height: 30px;
+  width: fit-content;
+  margin-top: 5%;
+  margin-right: 15px; 
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.left_buttons:hover{
+  background-color: #f1f1f1;
+}
+.button-text{
+  margin-right: 8px;
+}
+.dropdown-icon{
+  position: absolute;
+  left: 85%;
+  margin-top: 7px;
+  font-size: large; 
+}
+
+.line {
+  color: grey;
+  margin-left: 0%;
+}
+
+/* Responsive Styles */
+/* @media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    /* padding: 10px; Add padding for better spacing */
+  /* } */ 
+
+  /* Add more responsive styles as needed */
+/* } */
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .left {
+    margin-bottom: 10px; /* Adjust margin for better spacing */
+  }
+
+  .right {
+    margin-top: 10px; /* Adjust margin for better spacing */
+  }
+}

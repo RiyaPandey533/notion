@@ -1,0 +1,98 @@
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bg-image{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.hero-content p{
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.hero-content span{
+  line-height: 1;
+  font-size: 3.7rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.heading2 {
+  display: block;
+  font-size: 3.5rem;
+  color: black;
+  margin-top: 0px;
+  padding-top: 0px;
+  /* margin-bottom: 30px; */
+}
+
+.button4{
+background-color: blue;
+color: red;
+}
+
+.button3{
+  background-color: black;
+  color:white;
+  height: 35px;
+  width: 165px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button4{
+  background-color: white;
+  color: blue;
+  height: 35px;
+  width: 165px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+.button1:hover {
+  background-color: gray;
+}
+.button2:hover {
+  text-decoration: underline;
+}
+.arrow{
+
+  align-items: center;
+}
+
+/* Responsive Styles */
+/* @media screen and (max-width: 768px) {
+  .hero-content {
+    padding: 20px; /* Add padding for better spacing on smaller screens */
+  /* }  */
+
+  /* Add more responsive styles as needed */
+/* } */
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .bg-image {
+    margin-top: 20px; /* Adjust margin for better spacing on smaller screens */
+    margin-bottom: 20px; /* Adjust margin for better spacing on smaller screens */
+  }
+}
